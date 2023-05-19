@@ -45,7 +45,7 @@ void	handler(int binary, siginfo_t *info, void *n)
 	{
 		if (binary == SIGUSR1)
 			message[i] = 1;
-		else
+		if (binary == SIGUSR2)
 			message[i] = 0;
 		i++;
 	}
