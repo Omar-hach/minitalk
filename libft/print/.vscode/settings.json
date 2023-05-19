@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "ios": "c",
-        "ostream": "c",
-        "__locale": "c",
-        "climits": "cpp"
-    }
-}
