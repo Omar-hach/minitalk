@@ -16,7 +16,7 @@ void	character_sender_b(unsigned char letter, int pid)
 	unsigned char	*binary;
 	int				i;
 
-	binary = (unsigned char *)ft_calloc(8, 1);
+	binary = (unsigned char *)ft_calloc(9, sizeof(unsigned char));
 	if (!binary)
 		exit(1);
 	i = 8;

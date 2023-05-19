@@ -9,7 +9,7 @@
 /*   Updated: 2023/03/06 00:20:34 by ohachami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include"minitalk.h"
+#include"minitalk_bonus.h"
 
 int	main(void)
 {

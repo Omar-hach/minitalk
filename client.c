@@ -16,7 +16,9 @@ void	character_sender(char letter, int pid)
 	char	*binary;
 	int		i;
 
-	binary = (char *)ft_calloc(8, 1);
+	binary = (char *)ft_calloc(9, sizeof(char));
+	if (!binary)
+		exit(1);
 	i = 8;
 	while (i--)
 	{
